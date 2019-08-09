@@ -46,7 +46,7 @@ objects:
               port: 8080
             initialDelaySeconds: 10
             periodSeconds: 3
-          image: jitsi/jvb
+          image: styke/jvb
           imagePullPolicy: Always
           name: jvb
           resources: {}

@@ -27,7 +27,7 @@ objects:
             value: http://$(PROSODY_SERVICE_HOST):$(PROSODY_SERVICE_PORT_5280)
           - name: ETHERPAD_URL_BASE
             value: http://$(ETHERPAD_SERVICE_HOST):$(ETHERPAD_SERVICE_PORT)
-          image: jitsi/web
+          image: styke/web
           imagePullPolicy: Always
           name: web
           ports:

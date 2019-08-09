@@ -68,7 +68,7 @@ objects:
               name: jitsi-config
           - secretRef:
               name: jitsi-secret
-          image: jitsi/web
+          image: styke/web
           imagePullPolicy: Always
           name: web
           ports:
@@ -129,7 +129,7 @@ objects:
               name: jitsi-config
           - secretRef:
               name: jitsi-secret
-          image: jitsi/prosody
+          image: styke/prosody
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
@@ -209,7 +209,7 @@ objects:
               name: jitsi-config
           - secretRef:
               name: jitsi-secret
-          image: jitsi/jvb
+          image: styke/jvb
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
@@ -255,7 +255,7 @@ objects:
               name: jitsi-config
           - secretRef:
               name: jitsi-secret
-          image: jitsi/jigasi
+          image: styke/jigasi
           imagePullPolicy: Always
           name: jigasi
           resources: {}
@@ -288,7 +288,7 @@ objects:
               name: jitsi-config
           - secretRef:
               name: jitsi-secret
-          image: jitsi/jicofo
+          image: styke/jicofo
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
